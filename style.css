@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(./images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%) ;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+  margin: 0 100px;
+}
+
+.text-content{
+  display: flex;
+  color: white;
+  width: 50%;
+  margin-left: 100px;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.text-content h1 {
+  margin-bottom: 20px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.text-content p {
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+
+.form-content{
+  width: 50%;
+  margin: 0 70px;
+  margin-top: 50px;
+  
+}
+
+.form-content h5 {
+  width: 70%;
+  background-color:   hsl(248, 32%, 49%) ;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-content h5 span {
+  font-size: 12px;
+  font-weight:lighter ;
+}
+
+.form-content .white-background {
+  background-color: white;
+  width: 70%;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+.form-content input {
+  display: block;
+  width: 100%;
+  padding:10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: gray .3px solid;
+}
+
+.form-content button {
+  width: 100%;
+  padding: 10px 20px;
+  border: gray .3px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  font-size: x-small;
+}
+
+.form-content p {
+  width: 100%;
+  color: gray;
+  font-size: x-small;
+  margin-top:10px ;
+  text-align: center;
+}
+
+
+.form-content p span {
+  color: hsl(0, 100%, 74%) ;
+  font-weight: bolder;
+}
+
+
+
+
+
+.form-content .error{
+ position: relative;
+}
+
+.form-content .error img {
+  position: absolute;
+  top: 7px;
+  right: 20px;
+  width: 20px;
+  display: none;
+  opacity: 0;
+}
+
+
+.form-content .text-error {
+  font-size: x-small;
+  text-align: right;
+  position: relative;
+  top: -15px;
+  color: hsl(0, 100%, 74%) ;
+  display: none;
+  opacity: 0;
+}
+
+
+ 
